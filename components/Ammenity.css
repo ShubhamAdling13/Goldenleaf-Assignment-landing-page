@@ -1,0 +1,46 @@
+.ammenity{
+    background: linear-gradient(113.5deg, #1D3306 0%, rgba(58, 89, 54, 0.89) 108.28%);
+}
+
+
+
+.ammenity .d1 p{
+    font-family: 'Cinzel';
+font-size: 40px;
+font-weight: 400;
+line-height: 55px;
+text-align: left;
+
+}
+
+.ammenity .d2 p{
+    font-family: 'Cinzel';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 68px;
+    text-align: center;
+    
+
+}
+.ammenity .d3 p{
+    font-family: 'Inter';
+font-size: 30px;
+font-weight: 400;
+line-height: 55px;
+text-align: center;
+
+}
+
+.d4Logos{
+    /* display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    align-items: center; */
+
+}
+
+.d4Logos .l01{
+    display:flex;
+    flex-direction: column;
+}

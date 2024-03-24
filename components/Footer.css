@@ -1,0 +1,27 @@
+.footerItem
+{
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* width: 1428px;
+    height: 167px; */
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    /* width: 1728px; */
+}
+
+.footer h2{
+    text-decoration: underline;
+    font-weight: 500;
+    font-family: 'Cinzel';
+}
+

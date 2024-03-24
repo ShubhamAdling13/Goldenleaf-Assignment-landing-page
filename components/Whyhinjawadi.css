@@ -1,0 +1,68 @@
+
+.selecttag{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+     font-family: 'Inter';
+    
+}
+
+.selecttag div{
+    /* border: 2px solid red; */
+    /* flex-basis: 500px; */
+
+    
+}
+.selecttag select{
+    
+    padding: 10px;
+     width: 500px;
+     font-family: 'Inter';
+}
+
+.wh1 h2{
+    font-family: 'Cinzel';
+font-size: 40px;
+font-weight: 400;
+line-height: 55px;
+
+
+}
+
+.wh2 h1{
+    
+    font-family: 'Cinzel';
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 55px;
+  
+    
+}
+
+.wh3 h3{
+    font-family: 'Inter';
+font-size: 30px;
+font-weight: 400;
+line-height: 55px;
+
+
+}
+
+.whyhinjewadi{
+    background: url("../images/Why\ Hinjawadi\ Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 55%;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    .selecttag select {
+        width: 100%; 
+        max-width: 300px;
+    }
+}

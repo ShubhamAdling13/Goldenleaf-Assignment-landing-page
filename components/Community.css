@@ -1,0 +1,100 @@
+.community{
+    color: aliceblue;
+    background: linear-gradient(113.5deg, #1D3306 0%, rgba(58, 89, 54, 0.89) 108.28%);
+     padding: 40px;
+     display: flex;
+     flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+   position: relative;
+}
+
+
+.community img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+     z-index: 1;
+   
+}
+
+.community div{
+    /* border: 2px solid red; */
+}
+.community hr{
+    /* width: 800px; */
+    
+    border: 2px solid white;
+    margin-bottom: 100px;
+}
+
+.community .c3,.c4{
+    align-self: flex-start;
+    text-align: start;
+    font-family: Inter;
+font-size: 25px;
+font-weight: 400;
+line-height: 55px;
+ 
+
+}
+.community{
+    font-family: 'Cinzel';
+}
+
+.c1 p{
+    
+    font-family: 'Cinzel';
+font-size: 40px;
+font-weight: 400;
+line-height: 55px;
+text-align: left;
+
+
+}
+
+.c2 p{
+    font-family: 'Cinzel';
+font-size: 60px;
+font-weight: 500;
+line-height: 55px;
+text-align: left;
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .community {
+        padding: 10px; 
+    }
+    
+    .community p {
+        font-size: 14px; 
+    }
+    
+    .community .c1 p {
+        font-size: 24px; 
+    }
+    
+    .community .c2 p {
+        font-size: 30px; 
+    }
+
+    .community img {
+        height: auto;
+        max-width: 100%; 
+    }
+
+
+    .community img {
+        position: static; 
+        height: auto;
+        width: 100%; 
+        max-width: 100%; 
+        margin-top: 20px; 
+        z-index: 0; 
+    }
+}

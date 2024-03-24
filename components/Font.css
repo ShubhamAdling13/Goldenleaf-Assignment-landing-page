@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Inter'; 
+    src: url('../images/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Cinzel'; 
+    src: url('../images/Fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf') format('truetype');
+  }
